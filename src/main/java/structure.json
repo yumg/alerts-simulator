@@ -1,0 +1,252 @@
+[
+	{
+		"name": "A",
+		"properties": {
+			"in": [],
+			"out": [
+				"G"
+			],
+			"union-in": []
+		}
+	},
+	{
+		"name": "B",
+		"properties": {
+			"in": [],
+			"out": [
+				"H"
+			],
+			"union-in": []
+		}
+	},
+	{
+		"name": "C",
+		"properties": {
+			"in": [],
+			"out": [
+				"H"
+			],
+			"union-in": []
+		}
+	},
+	{
+		"name": "D",
+		"properties": {
+			"in": [],
+			"out": [
+				"I"
+			],
+			"union-in": []
+		}
+	},
+	{
+		"name": "E",
+		"properties": {
+			"in": [],
+			"out": [
+				"I"
+			],
+			"union-in": []
+		}
+	},
+	{
+		"name": "F",
+		"properties": {
+			"in": [],
+			"out": [
+				"J"
+			],
+			"union-in": []
+		}
+	},
+	{
+		"name": "G",
+		"properties": {
+			"in": [
+				"A"
+			],
+			"out": [
+				"K"
+			],
+			"union-in": []
+		}
+	},
+	{
+		"name": "H",
+		"properties": {
+			"in": [
+				"B",
+				"C"
+			],
+			"out": [
+				"K",
+				"L",
+				"M"
+			],
+			"union-in": []
+		}
+	},
+	{
+		"name": "I",
+		"properties": {
+			"in": [
+				"D",
+				"E"
+			],
+			"out": [
+				"L"
+			],
+			"union-in": []
+		}
+	},
+	{
+		"name": "J",
+		"properties": {
+			"in": [
+				"F"
+			],
+			"out": [
+				"M"
+			],
+			"union-in": []
+		}
+	},
+	{
+		"name": "K",
+		"properties": {
+			"in": [],
+			"out": [
+				"N",
+				"O"
+			],
+			"union-in": [
+				"G",
+				"H"
+			]
+		}
+	},
+	{
+		"name": "L",
+		"properties": {
+			"in": [],
+			"out": [
+				"P",
+				"Q"
+			],
+			"union-in": [
+				"H",
+				"I"
+			]
+		}
+	},
+	{
+		"name": "M",
+		"properties": {
+			"in": [],
+			"out": [],
+			"union-in": [
+				"H",
+				"J"
+			]
+		}
+	},
+	{
+		"name": "N",
+		"properties": {
+			"in": [
+				"K"
+			],
+			"out": [
+				"R"
+			],
+			"union-in": []
+		}
+	},
+	{
+		"name": "O",
+		"properties": {
+			"in": [
+				"K"
+			],
+			"out": [
+				"S",
+				"T"
+			],
+			"union-in": []
+		}
+	},
+	{
+		"name": "P",
+		"properties": {
+			"in": [
+				"L"
+			],
+			"out": [],
+			"union-in": []
+		}
+	},
+	{
+		"name": "Q",
+		"properties": {
+			"in": [
+				"L"
+			],
+			"out": [
+				"U"
+			],
+			"union-in": []
+		}
+	},
+	{
+		"name": "R",
+		"properties": {
+			"in": [
+				"N"
+			],
+			"out": [
+				"V"
+			],
+			"union-in": []
+		}
+	},
+	{
+		"name": "S",
+		"properties": {
+			"in": [
+				"O"
+			],
+			"out": [],
+			"union-in": []
+		}
+	},
+	{
+		"name": "T",
+		"properties": {
+			"in": [
+				"O"
+			],
+			"out": [],
+			"union-in": []
+		}
+	},
+	{
+		"name": "U",
+		"properties": {
+			"in": [
+				"Q"
+			],
+			"out": [],
+			"union-in": []
+		}
+	},
+	{
+		"name": "V",
+		"properties": {
+			"in": [
+				"R"
+			],
+			"out": [],
+			"union-in": []
+		}
+	}
+]
