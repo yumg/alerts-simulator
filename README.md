@@ -155,4 +155,4 @@ The file is in the format of **GEXF**, and it can be visualized by **Gephi**, wh
 
 <!-- ![Alternative text](./corr.png) -->
 
-<img src="corr.png" width="500">
+<img src="https://raw.githubusercontent.com/yumg/alerts-simulator/main/corr.png" width="500">
