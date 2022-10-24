@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" 
+    xmlns:viz="http://www.gexf.net/1.2draft/viz" version="1.2">
+    <meta lastmodifieddate="2020-06-12">
+        <creator>YuMG</creator>
+        <description>Event Source Network</description>
+    </meta>
+    <graph defaultedgetype="directed" idtype="string" mode="static">
+        <attributes class="node" mode="static">
+            <attribute id="class" title="Class" type="integer"/>
+            <attribute id="pageranks" title="PageRank" type="double"/>
+        </attributes>
+        <nodes count="2">
+            <node id="0" label="A">
+                <attvalues>
+                    <attvalue for="class" value="3"/>
+                    <attvalue for="pageranks" value="0.14658"/>
+                </attvalues>
+            </node>
+            <node id="1" label="B">
+                <attvalues>
+                    <attvalue for="class" value="3"/>
+                    <attvalue for="pageranks" value="0.14658"/>
+                </attvalues>
+            </node>
+        </nodes>
+        <edges count="1">
+            <edge id="0" source="0" target="1" type="directed" weight="0.8"/>
+        </edges>
+    </graph>
+</gexf>
